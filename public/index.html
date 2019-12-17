@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <title>Nibbler</title>
+</head>
+
+<body>
+
+    <!-- input burger -->
+    <div class="jumbotron">
+        <div class="container">
+            <img src="./assets/css/img/burger.png" class="burgerimg" alt="Burger">
+            <h1 class="display-4">Nibbler</h1>
+            <p class="lead">Add a mouth-watering burger!</p>
+        </div>
+
+        <form id="addburger">
+            <div class="form-row align-items-center">
+                <div class="col-sm-3 my-1">
+                    <label class="sr-only" for="inlineFormInputName">Name</label>
+                    <input type="text" class="form-control" id="faveburger" placeholder="What's your favorite burger?">
+                </div>
+                <div class="col-auto my-1">
+                    <button type="submit" class="btn btn-outline-info">Yum!!</button>
+                </div>
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Menu</h2>
+                <ul id="burgers"></ul>
+
+            </div>
+            <div class="col-sm-6">
+                <h2>Eaten</h2>
+                <ul id="hasEaten"></ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/assets/js/burgers.js"></script>
+</body>
+
+</html>

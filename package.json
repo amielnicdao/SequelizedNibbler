@@ -1,0 +1,26 @@
+{
+  "name": "sequelizednibbler",
+  "version": "1.0.0",
+  "description": "Burger 2: The Sequel",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.0.2",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amielnicdao/SequelizedNibbler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amielnicdao/SequelizedNibbler/issues"
+  },
+  "homepage": "https://github.com/amielnicdao/SequelizedNibbler#readme"
+}

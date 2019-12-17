@@ -1,0 +1,35 @@
+.jumbotron {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#addburger {
+    margin-left: 600px;
+}
+
+.burgerimg {
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#faveburger {
+    padding: 2px;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.devour-burger, .delete-burger {
+    margin: 0 0 5px 5px;
+}
+
