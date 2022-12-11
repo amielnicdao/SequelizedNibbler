@@ -4,7 +4,7 @@
   "description": "Burger 2: The Sequel",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql2": "^2.0.2",
     "sequelize": "^5.21.3"
   },
